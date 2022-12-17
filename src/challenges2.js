@@ -45,8 +45,11 @@ function triangleCheck(lineA, lineB, lineC) {
 }
 
 // Desafio 13
-function hydrate() {
+function hydrate(string) {
   // seu código aqui
+  let lista = string.match(/\d+/g).map(Number);
+  let copos = lista.reduce((a, b) => a + b, 0);
+  return copos === 1 ? '1 copo de água' : `${copos} copos de água`;
 }
 
 module.exports = {
