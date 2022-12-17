@@ -5,13 +5,17 @@ function compareTrue(girafa, elefante) {
 }
 
 // Desafio 2
-function calcArea() {
+function calcArea(base, altura) {
   // seu código aqui
+  const areaTriangulo = (base * altura) / 2;
+  return areaTriangulo;
 }
 
 // Desafio 3
-function splitSentence() {
+function splitSentence(string) {
   // seu código aqui
+  const divideFrase = string.split(' ');
+  return divideFrase;
 }
 
 // Desafio 4
