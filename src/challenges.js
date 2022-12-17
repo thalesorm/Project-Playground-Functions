@@ -77,11 +77,31 @@ function fizzBuzz(array) {
 }
 
 // Desafio 9
-function encode() {
+function encode(encriptacao) {
   // seu código aqui
+  let codifica = {
+    a: '1',
+    e: '2',
+    i: '3',
+    o: '4',
+    u: '5',
+  };
+  let entrada = encriptacao;
+  entrada = entrada.replace(/[aeiou]/g, (m) => codifica[m]);
+  return entrada;
 }
-function decode() {
+function decode(decriptacao) {
   // seu código aqui
+  let decodifica = {
+    1: 'a',
+    2: 'e',
+    3: 'i',
+    4: 'o',
+    5: 'u',
+  };
+  let saida = decriptacao;
+  saida = saida.replace(/[12345]/g, (m) => decodifica[m]);
+  return saida;
 }
 
 // Desafio 10
