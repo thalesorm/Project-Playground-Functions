@@ -6,7 +6,7 @@ O projeto Playground Functions proposto pela [Trybe](https://www.betrybe.com/) t
 <details>
   <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 
-Eu fiquei responsável pelo time de desenvolvimento de implementar o código de funções que resolvem problemas com respostas pré-determinadas. Eu pude utilizar a lógica de programação para me ajudar na análise de cada problema e resposta esperada, facilitando a implementação do código de cada uma das funções.
+ficticiamente eu fiquei responsável pelo time de desenvolvimento de implementar o código de funções que resolvem problemas com respostas pré-determinadas. Eu pude utilizar a lógica de programação para me ajudar na análise de cada problema e resposta esperada, facilitando a implementação do código de cada uma das funções.
 
 
 </details>
@@ -19,6 +19,12 @@ Após clonar o reposítorio, instale as dependências rodando no terminal o coma
 Todos os requisitos do projeto serão testados automaticamente por meio do Jest.
 
 Para testar os requisitos, basta rodar no seu terminal o comando: `npm test`
+
+Resultado dos testes:
+
+![AllTests](./Imgem%20dos%20testes.jfif)
+
+
 
 </details>
 
