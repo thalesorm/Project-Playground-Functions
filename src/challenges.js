@@ -105,8 +105,21 @@ function decode(decriptacao) {
 }
 
 // Desafio 10
-function techList() {
+function techList(tech, names) {
   // seu código aqui
+  if (tech.length === 0) {
+    return 'Vazio!';
+  }
+  let newArray = [];
+  tech.sort();
+  for (let index = 0; index < tech.length; index += 1) {
+    const newObj = {
+      name: names,
+      tech: tech[index],
+    };
+    newArray.push(newObj);
+  }
+  return newArray;
 }
 
 module.exports = {
